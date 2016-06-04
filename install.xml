@@ -1,19 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<extension version="3" type="file" method="upgrade">
-<name>IHelix Framework - pt-BR</name>
-<tag>pt-BR</tag>
-<version>3</version>
-<creationDate>16.05.2016</creationDate>
-<author>Ponto Mega</author>
-<authorEmail>contato@pontomega.com.br</authorEmail>
-<authorUrl>http://pontomega.com.br</authorUrl>
-<copyright>Copyright © 2012 - All rights reserved.</copyright>
-<license>GNU General Public License v2.0</license><
-<description>Tradução do Helix Framework para Português do Brasil</description>
-
-
-<files folder="language/pt-BR" target="language/pt-BR">
-<filename>pt-BR.tpl_shaper_helix3.ini</filename>
-</files>
-</fileset>
+<extension type="file" version="1.6" method="upgrade" client="site">
+  <name>Helix Framework - pt-BR</name>
+  <author>Ponto Mega</author>
+  <authorurl>http://www.pontomega.com.br</authorurl>
+  <copyright>Copyright © 2016 - All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+  <version>3</version>
+  <creationDate>31 May 2016</creationDate>
+  <description>Tradução do Helix Framework para Português do Brasil</description>
+  <fileset>
+    <files folder="language/pt-BR" target="language/pt-BR">
+      <filename>pt-BR.tpl_shaper_helix3.ini</filename>
+    </files>
+  </fileset>
 </extension>
